@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+.teste {
+    background: #000;
+    display: inline-grid;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #eee;
+    position: relative;
+}
+
+.separador {
+    margin-bottom: 5px;
+}
+
+.jogador .vencedor {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #00f;
+}
